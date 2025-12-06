@@ -1,13 +1,27 @@
-/* ID selector */
+h1{
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  font-style: normal;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 500px;
+}
+
 
 #info {
-  font-size: 25px;
+  font-size: 22px;
   color: black;
   font-style: italic;
 }
 
 #info-2 {
-  font-size: 25px;
+  font-size: 22px;
   color: black;
   font-style: italic;
 }
@@ -24,7 +38,6 @@
   font-style: italic;
 }
 
-/* Class selector */
 
 .steps {
   font-size: 20px;
@@ -32,13 +45,41 @@
   font-style: italic;
 }
 
-/* Element selector */
+
 section{
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 40px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: ghostwhite
   
 }
 
-a {
-color: gray;
+.facts {
+  color: gray;
+}
+
+.facts a:hover {
+  color: blue;
+  width: 50px;
+}
+
+button {
+  background-color: lightgray;
+  border: none;
+  color: black;
+  padding:5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-grid;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ 
+.overview {
+  display: inline-flex;
+  gap: 50px;
+  font-size: 18px;
 }
