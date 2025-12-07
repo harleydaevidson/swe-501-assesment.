@@ -11,29 +11,40 @@ h1{
   margin-right: auto;
   height: 500px;
   width: 500px;
+  justify-content: center;
 }
 
 
 #info {
   font-size: 22px;
   color: black;
-  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #info-2 {
   font-size: 22px;
   color: black;
-  font-style: italic;
+  font-family: 'Times New Roman', Times, serif; 
 }
 
+#ingre-con {
+ /* background-color: blue; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px;
+  margin: 5px;
+  gap: 50px;
+}
+
+
 #recipe {
-  font-size: 20px;
+  font-size: 25px;
   color: brown;
   font-style: italic;
 }
 
 #prep {
-  font-size: 20px;
+  font-size: 25px;
   color: brown;
   font-style: italic;
 }
@@ -57,6 +68,7 @@ section{
 
 .facts {
   color: gray;
+  font-size: 20x;
 }
 
 .facts a:hover {
