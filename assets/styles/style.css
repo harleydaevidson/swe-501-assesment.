@@ -1,11 +1,12 @@
 h1{
+  /* background-color: lightsalmon; */
   text-align: center;
   font-size: 35px;
   color: black;
   font-style: normal;
 }
 
-.image{
+.image { 
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -62,7 +63,7 @@ section{
   padding: 40px;
   border: 1px solid gray;
   border-radius: 10px;
-  background-color: ghostwhite
+  background-color: ghostwhite;
   
 }
 
